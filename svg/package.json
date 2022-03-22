@@ -1,0 +1,11 @@
+{
+  "name": "otsu",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/otsu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liam Elgie",
+  "license": "MIT"
+}

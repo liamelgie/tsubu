@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <script src='https://cdn.rawgit.com/svgdotjs/svg.js/master/dist/svg.min.js'></script>
+  <script src='src/otsu.js'></script>
+  <title>SVG demo</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    #demo {
+      width: 1000px;
+      height: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <div id='demo'>
+  </div>
+  <script>
+    new Otsu({ containerID: 'demo', particleCount: 450, colour: 'rgba(255, 192, 203, 1)' })
+  </script>
+</body>

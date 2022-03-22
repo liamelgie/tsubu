@@ -1,0 +1,39 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section#landing {
+  width: calc(100vw - (100vw - 100%));
+  height: calc(100vh - 73px);
+}
+
+div.title {
+  width: 100%;
+  height: 75px;
+  font-size: 30px;
+  z-index: 1;
+  color: white;
+  letter-spacing: 2px;
+  text-align: right;
+  background-color: pink;
+  bottom: 0px;
+  margin: 0;
+  position: fixed;
+}
+
+div.title h1 {
+  font-weight: normal;
+  margin: 0 25px 0 0;
+  line-height: 75px;
+}
+
+canvas#landingCanvas {
+  z-index: 0;
+}
+
+span.jptitle {
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding-right: 20px;
+}
